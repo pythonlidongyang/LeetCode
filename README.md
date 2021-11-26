@@ -1,2 +1,2 @@
 # LeetCode
-# 记录学习力扣之路
+# 记录学习python之路
