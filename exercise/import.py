@@ -8,7 +8,6 @@ excel表格转HTML 表格格式
 '''
 import xlrd
 
-
 def update_acmg():
     import_excel = xlrd.open_workbook("F:/Desktop/a.xlsx")  # 得到Excel文件的book对象，实例化对象
     sheet = import_excel.sheet_by_index(0)  # 通过sheet索引获得sheet对象->sheet1
