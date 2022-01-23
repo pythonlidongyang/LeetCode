@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/11/26 15:05
 # @Author : Dongyang Li
-# @File : import.py
+# @File : import_table.py
 '''
 excel表格转HTML 表格格式
 '''
@@ -25,6 +25,5 @@ def update_acmg():
     result = open('result.html', 'w', encoding='UTF-8')
     result.write(s)
     print('格式转换成功，请查看附件')
-
 
 update_acmg()
